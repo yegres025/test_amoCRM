@@ -1,0 +1,22 @@
+body {
+  position: relative;
+  width: 1440px;
+  height: 980px;
+  background: #1E1E1E;
+}
+body .wrapper {
+  margin: 0px 150px;
+}
+
+@media screen and (max-width: 321px) {
+  body {
+    max-width: 320px;
+    position: relative;
+    height: 1115px;
+    background: #0E1014;
+  }
+  body .wrapper {
+    margin: 0;
+    max-width: 320px;
+  }
+}/*# sourceMappingURL=App.css.map */

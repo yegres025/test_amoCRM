@@ -1,0 +1,13 @@
+.main_space_wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 321px) {
+  .main_space_wrapper {
+    position: absolute;
+    display: block;
+    width: 320px;
+    margin-left: 15px;
+  }
+}/*# sourceMappingURL=MainSpace.css.map */
